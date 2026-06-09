@@ -1,0 +1,48 @@
+@model IEnumerable<BookingApp.Models.Staff>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Staff</h1>
+
+<p>
+    <a asp-action="Create">Create New Staff</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Business ID</th>
+            <th>Business Name</th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Surname</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.Email</td>
+                <td>@item.BusinessID</td>
+
+                <td>
+                    @(item.Business != null ? item.Business.Name : "-")
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
