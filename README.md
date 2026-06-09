@@ -1,73 +1,83 @@
 # BookingApp
 
-An ASP.NET Core MVC booking management system built as a portfolio project to demonstrate C#, Entity Framework Core, SQL Server, ASP.NET Identity, role-based access control, and business logic development.
+An ASP.NET Core MVC booking management system currently being developed as part of my software development portfolio.
 
-## Project Status
-
-Currently under active development.
-
-## Purpose
-
-BookingApp is being developed as a multi-business booking system where businesses can manage services, staff, customers, and bookings from one web application.
-
-The project is intended to demonstrate practical software development skills including MVC architecture, database design, authentication, authorization, CRUD operations, and booking validation logic.
+The goal of the project is to provide businesses with a platform to manage services, staff, customers, and bookings while demonstrating modern .NET development practices.
 
 ## Technologies Used
 
 * C#
 * ASP.NET Core MVC
 * Entity Framework Core
-* SQL Server / LocalDB
+* SQL Server
 * ASP.NET Identity
 * Razor Views
 * Bootstrap
-* Git / GitHub
+* Git & GitHub
 
-## Completed Features
+## Current Project Status
 
-* Application models created
-* Database integration using Entity Framework Core
-* SQL Server / LocalDB setup
-* CRUD functionality for core entities
-* ASP.NET Identity integration
-* User registration and login
-* Role structure planning
-* Models for businesses, services, staff, customers, bookings, and admin users
+🚧 Active Development
 
-## In Progress
+The project structure, database models, Entity Framework integration, ASP.NET Identity setup, and CRUD functionality have been implemented.
 
-* Role management
+Current development is focused on:
+
+* Role-based access control
 * Business owner workflows
 * Booking validation
 * Double-booking prevention
 * Service-layer business logic
-* Improved UI and navigation
-* GitHub documentation and screenshots
+* User interface improvements
+
+## Features Implemented
+
+* ASP.NET Core MVC project structure
+* SQL Server database integration
+* Entity Framework Core migrations
+* ASP.NET Identity authentication
+* CRUD operations
+* Models for:
+
+  * Businesses
+  * Services
+  * Staff
+  * Customers
+  * Bookings
+  * Admin users
 
 ## Planned Features
 
-* Separate registration flows for customers and business owners
-* Staff-specific booking views
 * Business owner dashboard
+* Staff booking management
 * Customer booking history
-* Admin management features
-* Time slot availability logic
-* Booking status management
+* Time slot availability checking
+* Booking status tracking
+* Advanced reporting
+* Improved UI/UX
 
 ## What I Am Learning
 
-Through this project, I am applying:
+This project allows me to gain practical experience with:
 
-* ASP.NET Core MVC structure
-* Object-oriented programming
-* Entity Framework Core relationships and migrations
-* Authentication and authorization using ASP.NET Identity
-* SQL Server database design
-* Business logic separation using services
-* Real-world problem solving for booking systems
+* ASP.NET Core MVC
+* Entity Framework Core
+* Database design
+* Authentication and authorization
+* Role management
+* Service-layer architecture
+* Software engineering principles
+* Git and GitHub workflows
 
-## Author
+## About Me
 
-Divan Gomm
-Junior .NET Developer | Application Support Engineer
+I am a Junior .NET Developer with a Higher Certificate in Information Systems (Software Development) and over 10 years of experience in technical operations and troubleshooting.
+
+I am actively seeking opportunities as a Junior .NET Developer, Application Support Engineer, or Software Support Engineer.
+
 GitHub: https://github.com/divan-gomm
+LinkedIn: https://www.linkedin.com/in/divan-gomm-5b1b27394
+
+## Project Status
+
+This repository is under active development and will continue to evolve as new features are implemented.
